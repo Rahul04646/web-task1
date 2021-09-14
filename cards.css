@@ -1,0 +1,141 @@
+
+/* body{
+    background-image: url(images/group.jfif);
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+} */
+
+body{
+    background-color:black;
+}
+.title_design{
+    text-align: center;
+    padding: 30px 25px;
+    font-size: 80px;
+    margin: 0%;
+} 
+
+.title{
+    width: 100%;
+    color: yellow;
+    background-color: black;
+    position:sticky;
+    top: 0;
+    left: 100px;
+
+}
+
+.star{
+    border: 5px solid black;
+    border-radius: 10px;
+    background-color: yellow;
+}
+
+.starCast{
+    text-align: center;
+}
+
+.cards {
+    margin: auto;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* grid-auto-rows: auto; */
+    gap: 20px;
+    font-family: sans-serif;
+    padding-top: 30px;
+
+}
+ .card:hover {
+    box-shadow: 0 50px 80px 0 rgb(209, 255, 6)
+  }
+   
+
+
+.cards * {
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    
+
+}
+ .card_gif {
+    padding: px ;
+    position: fixed;
+    top: 0;
+    margin:0%; 
+} 
+
+.card__image {
+    padding-top: 30px;
+    width: 100%;
+    height: 250px;
+    object-fit: scale-down;
+    display: block;
+    background-color: white;
+    border-top: 2px solid #333333;
+    border-right: 2px solid #333333;
+    border-left: 2px solid #333333;
+}
+
+.card__content {
+    line-height: 1.5;
+    font-size: 0.9em;
+    padding: 15px;
+    background: #fafafa;
+    border-right: 2px solid #333333;
+    border-left: 2px solid #333333;
+}
+
+.card__content > p:first-of-type {
+    margin-top: 0;
+}
+
+.card__content > p:last-of-type {
+    margin-bottom: 0;
+}
+
+.card__info {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #555555;
+    background: #eeeeee;
+    font-size: 0.8em;
+    border-bottom: 2px solid #333333;
+    border-right: 2px solid #333333;
+    border-left: 2px solid #333333;
+}
+
+.card__info i {
+    font-size: 0.9em;
+    margin-right: 8px;
+}
+
+.card__link {
+    color: #64968c;
+    text-decoration: none;
+}
+
+.card__link:hover {
+    text-decoration: underline;
+}
+
+.dailogue {
+    border: 5px solid black;
+    border-radius: 0px;
+    background-color: yellow;
+}
+
+.fdailogue {
+    text-align: center;
+} 
+
+.font_dailogue{
+    font-size: 20px;
+    color: rgb(209, 255, 6);
+}
